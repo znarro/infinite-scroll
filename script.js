@@ -1,5 +1,6 @@
 const imageContainer = document.getElementById("image-container");
 const loader = document.getElementById("loader");
+const goTopBtn = document.getElementById("goTop");
 
 let ready = false;
 let imagesLoaded = 0;
@@ -87,6 +88,10 @@ window.addEventListener("scroll", () => {
     ready = false;
     getPhotos();
   }
+});
+
+goTopBtn.addEventListener("click", () => {
+  window.scrollTo(0, 0);
 });
 
 // On load

@@ -45,6 +45,23 @@ h1 {
   margin-top: 5px;
 }
 
+/* GoTop button */
+.goTop {
+  width: 60px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.goTop svg {
+  fill: #e50914b1;
+}
+
+.goTop svg:hover {
+  fill: #e50914;
+}
+
 /* Media Query: Large Smartphone */
 @media screen and (max-width: 600px) {
   h1 {
