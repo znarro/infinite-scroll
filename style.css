@@ -55,11 +55,32 @@ h1 {
 }
 
 .goTop svg {
-  fill: #e50914b1;
+  fill: #e509148a;
 }
 
 .goTop svg:hover {
   fill: #e50914;
+}
+
+/* Signature */
+.signature {
+  color: whitesmoke;
+  background-color: black;
+  letter-spacing: 3px;
+  padding: 4px 8px;
+  position: fixed;
+  transform: rotateZ(90deg);
+  bottom: 150px;
+  left: -110px;
+}
+
+.link-github {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.link-github:hover {
+  color: #e50914;
 }
 
 /* Media Query: Large Smartphone */
@@ -70,5 +91,9 @@ h1 {
 
   .image-container {
     margin: 10px;
+  }
+
+  .signature {
+    display: none;
   }
 }
